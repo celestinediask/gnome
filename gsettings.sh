@@ -9,3 +9,6 @@ gsettings set org.gnome.shell favorite-apps "['org.gnome.Terminal.desktop', 'org
 
 # set background color
 gsettings set org.gnome.desktop.background primary-color '#000000'
+
+# enable over amplification
+gsettings set org.gnome.desktop.sound allow-volume-above-100-percent 'true'
